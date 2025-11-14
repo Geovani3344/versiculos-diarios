@@ -1,0 +1,135 @@
+/* Estilo geral */
+body {
+    background-image: url('Fotos/img1.jpg'); /* Imagem de fundo */
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 70%;
+    height: 400px;
+    overflow: auto;
+    word-wrap: break-word;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #bbd2d7; /** Azul claro suave**/
+    border-radius: 70px;
+    box-shadow: 0px 20px 17px rgba(51, 38, 232, 0.1);
+}
+
+/* Título */
+.title {
+    font-size: 3em;
+    color: #133962; /* Azul escuro  */
+    margin-bottom: 30px;
+    font-family: 'Playfair Display SC', cursive;
+}
+
+/* Descrição */
+.description {
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 45px;
+    color: #536371; /* Cinza azulado */
+}
+
+/* Botão */
+.start-button {
+    background-color: #344f66; /*Azul acinzentado */
+    color: rgb(248, 247, 249);
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 1s ease, transform 0.2s ease;
+    font-family: 'Unbounded', sans-serif
+}
+/* Estética do botão */
+.start-button:hover {
+    background-color: #072655; /* Muda a cor do botão  ao passar o mouse em cima*/
+
+    transform: scale(1.2); /* Zoom ao passar o mouse em cima */
+}
+
+#historico {
+    width: 50%;
+    max-height: 250px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    font-family: 'Karla', sans-serif;
+    color: #1f324d;
+}
+
+/* Estilo para cada versículo no histórico */
+#historico p {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eaf4f8;
+    border-radius: 10px;
+    font-size: 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Título opcional do histórico */
+#historico h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #133962;
+    text-align: center;
+}
+
+
+/* Mensagem */
+#message {
+    font-size: 1.8em;
+    color: #1f324d;
+    margin-top: 30px;
+    display: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+  /* Copyright*/
+    footer {
+     color: rgb(244, 244, 245);  
+     position: fixed;
+      top:0;
+      right: 0;
+      padding: 10px 20px;
+      font-size: 13px;
+      border-top-left-radius: 7px ;
+}
+   /* Estilo padrão da mensagem*/
+    #message {
+    opacity: 0;
+    }
+    #message.fade {
+    opacity: 1;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Animação da mensagem */
+@keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
