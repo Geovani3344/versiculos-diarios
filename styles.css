@@ -180,7 +180,6 @@ body {
   border-radius: 0 0 3px 3px;
 }
 
-  /* media query para telas menores */  
 /* Estilos para telas menores que 768px (celulares e tablets) */
 @media (max-width: 768px) {
   body {
