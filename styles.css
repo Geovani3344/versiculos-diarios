@@ -180,4 +180,45 @@ body {
   border-radius: 0 0 3px 3px;
 }
 
-    
+  /* media query para telas menores */  
+/* Estilos para telas menores que 768px (celulares e tablets) */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column; /* empilha os elementos */
+    height: auto; /* evita cortes */
+    padding: 10px;
+  }
+
+  .container {
+    width: 95%;   /* ocupa quase toda a largura */
+    height: auto; /* deixa a altura flexível */
+    padding: 15px;
+    border-radius: 20px; /* menos arredondado para caber melhor */
+  }
+
+  .title {
+    font-size: 2em; /* reduz o tamanho do título */
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 1em; /* texto menor */
+    margin-bottom: 25px;
+  }
+
+  .start-button {
+    font-size: 1.2em; /* botão mais compacto */
+    padding: 8px 15px;
+    margin-top: 15px;
+  }
+
+  #message {
+    font-size: 1.2em; /* mensagem menor */
+    margin-top: 20px;
+  }
+
+  footer {
+    font-size: 11px; /* copyright menor */
+    padding: 5px 10px;
+  }
+}
