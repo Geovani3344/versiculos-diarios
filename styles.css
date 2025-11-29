@@ -140,11 +140,6 @@ body {
 body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
-}
-canvas {
-  display: block;
-  vertical-align: bottom;
-  z-index: -1;
 } 
 #particles-js {
   position: absolute;
@@ -176,12 +171,7 @@ canvas {
 .js-count-particles {
   font-size: 1.1em;
 }
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
+
 #stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
