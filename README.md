@@ -1,4 +1,4 @@
-# 📖 Versículo Diário (Legado)
+# 📖 Versículo Diário 
 
 > [!IMPORTANT]
 > **Uma nova versão deste projeto está disponível!**
